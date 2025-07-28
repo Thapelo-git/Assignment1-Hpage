@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import AboutImages from '../components/AboutImages';
 import books from '../assets/about/books.jpg'
 import guy from '../assets/about/guy.jpg'
-import lady from '../assets/about/ladt.jpg'
+import lady from '../assets/about/lady.jpg'
 import posters from '../assets/about/posters.jpg'
 const About = () => {
     return (
