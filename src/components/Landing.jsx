@@ -14,8 +14,8 @@ import kiddock from "../assets/kiddock.jpg";
 import purbleshoes from "../assets/purbleshoes.jpg";
 import melulagif from "../assets/melulagif.gif";
 import wordspic from "../assets/wordspic.png";
-import manylaces from "../assets/manylaces.jpeg";
-import laces from "../assets/laces.jpeg";
+import manylaces from "../assets/manylaces.jpg";
+import laces from "../assets/laces.jpg";
 import LeftTreeSplit from "./LeftTreeSplit";
 import coverpic from "../assets/coverimage.jpg";
 function Landing() {
