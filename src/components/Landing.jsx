@@ -14,7 +14,7 @@ import kiddock from "../assets/kiddock.jpg";
 import purbleshoes from "../assets/purbleshoes.jpg";
 import melulagif from "../assets/melulagif.gif";
 import wordspic from "../assets/wordspic.png";
-// import manylaces from "../assets/manylaces.jpg";
+import manylaces from "../assets/manyLaces.jpg";
 import laces from "../assets/laces.jpg";
 import LeftTreeSplit from "./LeftTreeSplit";
 import coverpic from "../assets/coverimage.jpg";
@@ -67,7 +67,7 @@ function Landing() {
           <span className="text-blue-900 text-xl md:w-48">Follow us on Instagram</span>
           <span className="text-blue-900 text-xl md:w-48">@melula_copenhagen</span>
           <div className="flex flex-row gap-2 ">
-          {/* <img src={manylaces} alt="manylaces" className="w-1/2 md:w-42" /> */}
+          <img src={manylaces} alt="manylaces" className="w-1/2 md:w-42" />
           <img src={laces} alt="laces" className="w-1/2 md:w-42" />
           </div>
           </div>
