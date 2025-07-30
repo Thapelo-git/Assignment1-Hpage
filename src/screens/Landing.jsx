@@ -24,6 +24,15 @@ function Landing() {
   className="snap-center h-full w-full bg-cover bg-center flex items-center justify-center"
   style={{ backgroundImage: `url(${coverpic})` }}
 >
+  <div className="h-[5vh] flex flex-row items-center bg-orange-300 lg:hidden px-4">
+  <p className="flex-grow font-bold text-white text-center">
+    Free worldwide shipping on all shoes
+  </p>
+  <button className="w-[5vh] h-[5vh] text-white bg-black bg-opacity-10 ml-4">
+    x
+  </button>
+</div>
+
   <div className="bg-transparent bg-opacity-50 p-6 rounded-lg text-center">
     <h1 className="text-white text-5xl md:text-5xl font-bold mb-4">FOR COLOURFUL
 STEPS IN LIFE</h1>

@@ -6,12 +6,14 @@ import Footer from './screens/Footer'
 import {BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
 import Shop from './screens/Shop'
 import About from './screens/About'
+import Header from './screens/Header'
 function App() {
   
 
 
  return (
   <BrowserRouter>
+  
   <Routes>
     <Route path='/' element={<Landing/>}/>
     <Route path='/shop' element={<Shop/>}/>
