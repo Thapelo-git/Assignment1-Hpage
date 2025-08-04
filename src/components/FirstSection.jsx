@@ -3,9 +3,9 @@ import React from "react";
 import Navbar from "../screens/Navbar";
 import Header from "../screens/Header";
 
-function FirstSection({text1,text2,button,bgImg}) {
+function FirstSection({text1,text2,button,bgImg,className}) {
   return (
-    <div className="relative h-screen w-full">
+    <div className={className}>
       
     <div
       className="  bg-fixed bg-cover bg-center flex flex-col items-center justify-center"
@@ -20,7 +20,7 @@ function FirstSection({text1,text2,button,bgImg}) {
   </button>
 </div>
 
-      <Navbar/>
+     
      <div className="h-[5vh] w-full flex flex-row items-center  bg-orange-300 md:hidden ">
   <p className="flex-grow font-bold text-white text-center">
     Free worldwide shipping on all shoes
