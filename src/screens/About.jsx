@@ -8,12 +8,24 @@ import guy from '../assets/about/guy.jpg'
 import lady from '../assets/about/lady.jpg'
 import posters from '../assets/about/posters.jpg'
 const About = () => {
+    const gallary=[
+        books,posters,
+       guy,lady
+    ]
     return (
-        <div>
+        <div >
             <FirstSection text1="ABOUT" bgImg={newkidSticks} button={<Link to="/shop"
              className="bg-teal-400 h-15 hover:bg-teal-300  text-center text-l 
               text-white rounded-4xl w-60">SHOP</Link>}/>
-              <AboutImages image1={books} image2={posters} image3={guy} image4={lady}/>
+              <div className='h-78 p-4 gap-4'>
+              {
+                gallary.map((imgSrc)=>{
+                    <div className='flex-wrap flex gap-2 '>
+                        <img src={imgSrc} className='w-48 h-48 lg:88 lg:88'/>
+                    </div>
+                })
+              }
+              </div>
 
         </div>
     );

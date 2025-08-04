@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { data } from '../Data'
 import { Link, useParams } from 'react-router-dom'
+import Navbar from './Navbar';
 function Details() {
    const { Name } = useParams();
 //    const itemId =Number(id)
@@ -18,12 +19,17 @@ function Details() {
   </div>;
 }
   return (
+    <div className='w-full h-full'>
+        <Navbar/>
+    
     <div className='flex flex-row gap-2 p-4 '>
+        
       <img src={item.img} className='w-1/2'/>
-      <div className='w-1/2 flex flex-col justify-start'>
+      <div className='w-1/2 flex flex-col md:flex-row justify-start'>
         <p>{item.Name}</p>
         <p>{item.price}</p>
       </div>
+    </div>
     </div>
   )
 }

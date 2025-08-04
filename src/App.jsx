@@ -14,7 +14,7 @@ function App() {
 
  return (
   <BrowserRouter>
-   <Navbar className="z-10"/>
+  
   <Routes>
     <Route path='/' element={<Landing/>}/>
     <Route path='/shop' element={<Shop/>}/>
