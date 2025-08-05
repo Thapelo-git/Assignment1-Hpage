@@ -11,21 +11,21 @@ function FirstSection({text1,text2,button,bgImg}) {
       className="  bg-fixed bg-cover bg-center flex flex-col items-center justify-center"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="hidden md:flex h-[5vh] w-full flex flex-row items-center block  bg-orange-300  ">
+      <div className="hidden md:flex h-[5vh] w-full flex flex-row items-center block  bg-orange-600  ">
   <p className="flex-grow font-bold text-white text-center">
     Free worldwide shipping on all shoes
   </p>
-  <button className="reletive w-[6vh] h-[5vh] text-white  bg-gray-300 bg-opacity-100 ml-4">
+  <button className="reletive w-[6vh] h-[5vh] text-white  bg-orange-700 bg-opacity-100 ml-4">
     x
   </button>
 </div>
 
       <Navbar/>
-     <div className="h-[5vh] w-full flex flex-row items-center  bg-orange-300 md:hidden ">
+     <div className="h-[5vh] w-full flex flex-row items-center  bg-orange-600 md:hidden ">
   <p className="flex-grow font-bold text-white text-center">
     Free worldwide shipping on all shoes
   </p>
-  <button className="w-[6vh] h-[5vh] 	bg-gray-700 bg-transparent   text-white ml-4">
+  <button className="w-[6vh] h-[5vh] 	bg-orange-700 bg-transparent   text-white ml-4">
     x
   </button>
 </div>
