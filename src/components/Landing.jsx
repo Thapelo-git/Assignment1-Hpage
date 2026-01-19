@@ -17,12 +17,12 @@ import wordspic from "../assets/wordspic.png";
 import manylaces from "../assets/manyLaces.jpg";
 import laces from "../assets/laces.jpg";
 import LeftTreeSplit from "./LeftTreeSplit";
-import coverpic from "../assets/coverimage.jpg";
+import bgImgCoffee from "../assets/coffee/bgImgCoffee.jpg";
 function Landing() {
   return (
     <div className=" snap-y   w-full  h-full">
       
-      <FirstSection  text1="FOR COLOURFUL " text2="STEPS IN LIFE"  bgImg={coverpic} button={<button className="bg-teal-400 h-15 hover:bg-teal-300  text-center text-l  text-white rounded-4xl w-60">VISIT OUR SHOP</button>} />
+      <FirstSection  text1="FOR COLOURFUL " text2="STEPS IN LIFE"  bgImg={bgImgCoffee} button={<button className="bg-teal-400 h-15 hover:bg-teal-300  text-center text-l  text-white rounded-4xl w-60">VISIT OUR SHOP</button>} />
       <DoubleImageSection leftImage={shoe1} rightImage={dock} alt1="shoe1" alt2="dock" />
          <div className="snap-center flex flex-col mr-0 p-4 text-white  gap-4 bg-blue-900 h-88 w-full">
         <span className="font-large mr-auto w-max text-lg">Melula Kids shoes</span>

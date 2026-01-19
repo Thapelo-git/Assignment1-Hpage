@@ -42,3 +42,19 @@ width: 100%;
   color: #888;
 }
 @import "tailwindcss";
+/* colors: {
+ 'text': '#060404',
+ 'background': '#e6965c',
+ 'primary': '#0c0a09',
+ 'secondary': '#aacfad',
+ 'accent': '#884315',
+},
+
+
+--linearPrimarySecondary: linear-gradient(#0c0a09, #aacfad);
+--linearPrimaryAccent: linear-gradient(#0c0a09, #884315);
+--linearSecondaryAccent: linear-gradient(#aacfad, #884315);
+--radialPrimarySecondary: radial-gradient(#0c0a09, #aacfad);
+--radialPrimaryAccent: radial-gradient(#0c0a09, #884315);
+--radialSecondaryAccent: radial-gradient(#aacfad, #884315);
+*/
