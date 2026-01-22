@@ -1,4 +1,4 @@
-#root {
+/* #root {
 width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -40,21 +40,23 @@ width: 100%;
 
 .read-the-docs {
   color: #888;
-}
+} */
 @import "tailwindcss";
-/* colors: {
- 'text': '#060404',
- 'background': '#e6965c',
- 'primary': '#0c0a09',
- 'secondary': '#aacfad',
- 'accent': '#884315',
-},
+@layer base {
+  :root {
+    --text: #0d0a07;
+    --background: #f4c18f;
+    --primary: #b5885e;
+    --secondary: #d3b293;
+    --accent: #cea178;
+--linearPrimarySecondary: linear-gradient(#b5885e, #d3b293);
+--linearPrimaryAccent: linear-gradient(#b5885e, #cea178);
+--linearSecondaryAccent: linear-gradient(#d3b293, #cea178);
+--radialPrimarySecondary: radial-gradient(#b5885e, #d3b293);
+--radialPrimaryAccent: radial-gradient(#b5885e, #cea178);
+--radialSecondaryAccent: radial-gradient(#d3b293, #cea178);
 
+  }
 
---linearPrimarySecondary: linear-gradient(#0c0a09, #aacfad);
---linearPrimaryAccent: linear-gradient(#0c0a09, #884315);
---linearSecondaryAccent: linear-gradient(#aacfad, #884315);
---radialPrimarySecondary: radial-gradient(#0c0a09, #aacfad);
---radialPrimaryAccent: radial-gradient(#0c0a09, #884315);
---radialSecondaryAccent: radial-gradient(#aacfad, #884315);
-*/
+  
+}

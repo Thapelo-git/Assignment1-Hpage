@@ -1,6 +1,6 @@
 import React from 'react';
-import coverpic from "../assets/coverimage.jpg";
-import shoe1 from "../assets/shoe1.jpg";
+import coverpic from "../assets/Coffee/cover.jpg";
+import coffeeDrink7 from "../assets/coffee/coffeeDrink7.jpg";
 import dock from "../assets/dock.jpg";
 import pershoes from "../assets/pershoes.jpg";
 import reflectedshoe from "../assets/reflectedshoe.jpg";
@@ -43,7 +43,7 @@ STEPS IN LIFE</h1>
 </div>
 
 <div className="snap-center flex flex-col lg:flex-row justify-center items-center gap-4 px-4">
-  <img src={shoe1} alt="shoe1" className="w-full lg:w-1/2 object-cover" />
+  <img src={coffeeDrink7} alt="shoe1" className="w-full lg:w-1/2 object-cover" />
   <img src={dock} alt="dock" className="w-full lg:w-1/2 object-cover" />
 </div>
 <div className="snap-center flex flex-col lg:flex-row h-full w-full p-4 gap-4">

@@ -12,7 +12,7 @@ const Navbar = () => {
   
   return (
  
-    <nav className=" top-0  z-10 w-full bg-blue-900 md:bg-transparent text-white px-6 py-4 ">
+    <nav className=" top-0  z-10 w-full bg-[var(--background)] md:bg-transparent text-white px-6 py-4 ">
       <div className="flex items-center justify-between w-full max-w-7xl mx-auto p-4">
         
        <Link to="/">
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
       </div>
        {menuOpen && (
-  <div className="md:hidden absolute top-0 left-0 w-full  h-screen bg-white z-50 px-6 py-4">
+  <div className="md:hidden absolute top-0 left-0 w-full  h-screen bg-[var(--background)] z-50 px-6 py-4">
     
     <div className="flex justify-start w-1/4 ">
       <button onClick={() => setMenuOpen(false)} className="text-3xl  text-black">
