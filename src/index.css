@@ -1,6 +1,11 @@
 
 @layer base {
   :root {
+     --radial-primary-accent: radial-gradient(
+    circle at top,
+    #e0f2fe,
+    #f8fafc 60%
+  );
     --text: #060404;
     --background: #e6965c;
     --primary: #0c0a09;

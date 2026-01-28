@@ -3,7 +3,7 @@ import { FaInstagram, FaFacebookF, FaPinterestP } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <footer className="bg-blue-900 text-white py-10">
+    <footer className="bg-[image:var(--radialPrimaryAccent)] text-white py-10">
       <div className="flex flex-col items-center justify-center gap-6 text-sm w-full text-center">
         
         {/* Top: Brand + Address */}
