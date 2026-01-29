@@ -2,7 +2,7 @@ import React from "react";
 
 function LeftTreeSplit({ mainImage, topRightImage, bottomRightImage }) {
   return (
-    <div className="snap-center w-full bg-white py-12 flex items-center justify-center">
+    <div className="snap-center w-full  py-12 flex items-center justify-center">
       
       <div className="relative w-full max-w-6xl flex flex-col md:flex-row items-center gap-8">
         

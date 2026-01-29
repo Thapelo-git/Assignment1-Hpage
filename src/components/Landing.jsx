@@ -3,30 +3,31 @@ import FirstSection from "./FirstSection";
 import DoubleImageSection from "./DoubleImageSection";
 import ThreeImageSplitSection from "./ThreeImageSplitSection";
 import coffeeDrink7 from "../assets/coffee/chocolete2.jpg";
-import dock from "../assets/coffee/milk.jpg";
+import backg from "../assets/coffee/milkcoffee2.jpg";
+import bg from "../assets/coffee/chok.jpg";
 import pershoes from "../assets/coffee/blendcoffee.jpg";
-import reflectedshoe from  "../assets/coffee/blendcoffee2.jpg";
+import reflectedshoe from  "../assets/coffee/blendcoffee5.jpg";
 import sticks from  "../assets/coffee/blendcoffee3.jpg";
 import skyblueshoes from "../assets/coffee/coffeeDrink1 (4).jpg";
 import kidsticks from "../assets/coffee/coffeeDrink1 (11).jpg";
 import skybluepershoes from "../assets/coffee/coffeeDrink1 (13).jpg";
 import milkcoffee from "../assets/coffee/milkcoffee.jpg";
-import milkcoffee2 from "../assets/coffee/milkcoffee2.jpg";
+import milkcoffee2 from "../assets/coffee/coffee-48.gif";
 import milkcoffee3 from "../assets/coffee/milkcoffee3.jpg";
 import downpic from "../assets/coffee/downpic.jpg";
 import downpic2 from "../assets/coffee/downpic2.jpg";
-import wordspic from "../assets/wordspic.png";
+
 
 import LeftTreeSplit from "./LeftTreeSplit";
-import coffeeDrink3  from "../assets/coffee/coffeeDrink3.jpg";
+
 function Landing() {
   return (
-    <div className=" snap-y   w-full  h-full bg-[image:var(--radial-primary-accent)] ">
+    <div className=" snap-y   w-full  h-full  ">
       
-      <FirstSection  text1="FOR COLOURFUL " text2="STEPS IN LIFE"  bgImg={coffeeDrink3}
+      <FirstSection  text1="FOR COLOURFUL " text2="STEPS IN LIFE"  bgImg={backg}
        button={<button className="bg-[image:var(--linearPrimarySecondary)] h-15 hover:bg-teal-300
          text-center text-l  text-white rounded-4xl w-60">VISIT OUR SHOP</button>} />
-      <DoubleImageSection leftImage={coffeeDrink7} rightImage={dock} alt1="shoe1" alt2="dock" />
+      <DoubleImageSection leftImage={coffeeDrink7} rightImage={bg} alt1="shoe1" alt2="dock" />
          <div className="snap-center flex flex-col mr-0 p-4 text-white  gap-4 bg-[image:var(--radialPrimaryAccent)] h-88 w-full">
         <span className="font-large mr-auto w-max text-lg">Melula Kids shoes</span>
         <p className="max-w-2xl text-3xl mr-auto ">
@@ -62,16 +63,16 @@ function Landing() {
   rightText="Flexible sole"
 />
       <div className="text-center px-0">
-     
+{/*      
           <div className="snap-center flex flex-col items-center justify-center bg-white p-4">
         <span className="text-blue-900 text-2xl mb-2">They talk about us</span>
         <img src={wordspic} alt="wordspic" className="w-full h-30" />
         <hr className="border border-gray-400 my-4 w-full" />
 
-      </div>
+      </div> */}
 
      
-      <div className="snap-center flex flex-col lg:flex-row  s items-center gap-6 justify-around bg-white p-6">
+      <div className="snap-center flex flex-col lg:flex-row   items-center gap-6 justify-around  p-6">
         
         <div className="flex flex-col gap-4 ">
           <span className="text-blue-900 text-xl md:w-48">Follow us on Instagram</span>

@@ -9,7 +9,7 @@ function ThreeImageSplitSection({
   rightText,
 }) {
   return (
-    <div className="snap-center relative w-full h-[500px] md:h-[600px] bg-white flex items-center justify-center">
+    <div className="snap-center relative w-full h-[500px] md:h-[600px]  flex items-center justify-center">
       
       {/* SIDE IMAGES */}
       <div className="absolute inset-0 flex items-center justify-between px-4 md:px-16 z-0">
@@ -22,7 +22,7 @@ function ThreeImageSplitSection({
             className="w-full h-[45%] md:h-[60%] object-cover rounded-sm opacity-90"
           />
           {leftText && (
-            <span className="mt-2 text-xs text-gray-600 text-center">
+            <span className="mt-2 text-xs text-white text-center">
               {leftText}
             </span>
           )}
@@ -36,7 +36,7 @@ function ThreeImageSplitSection({
             className="w-full h-[45%] md:h-[60%] object-cover rounded-sm opacity-90"
           />
           {rightText && (
-            <span className="mt-2 text-xs text-gray-600 text-center">
+            <span className="mt-2 text-xs text-white text-center">
               {rightText}
             </span>
           )}
@@ -57,7 +57,7 @@ function ThreeImageSplitSection({
           "
         />
         {mainText && (
-          <span className="mt-3 text-sm text-gray-700 text-center max-w-xs">
+          <span className="mt-3 text-sm text-white text-center max-w-xs">
             {mainText}
           </span>
         )}

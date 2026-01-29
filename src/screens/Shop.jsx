@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FirstSection from '../components/FirstSection';
-import coverpic from "../assets/coverimage.jpg";
+import coverpic from "../assets/coffee/milkcoffee2.jpg";
 import ShopImages from '../components/ShopImages';
 import {data} from "../Data"
 

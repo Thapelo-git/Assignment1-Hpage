@@ -2,7 +2,7 @@ import React from "react";
 
 function DoubleImageSection({ leftImage, rightImage, alt1, alt2 }) {
   return (
-    <div className="snap-center w-full bg-white py-12 flex items-center justify-center">
+    <div className="snap-center w-full  py-12 flex items-center justify-center">
       
       <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
         
