@@ -14,8 +14,8 @@ import skybluepershoes from "../assets/coffee/coffeeDrink1 (13).jpg";
 import milkcoffee from "../assets/coffee/milkcoffee.jpg";
 import milkcoffee2 from "../assets/coffee/coffee-48.gif";
 import milkcoffee3 from "../assets/coffee/milkcoffee3.jpg";
-import downpic from "../assets/coffee/downpic.jpg";
-import downpic2 from "../assets/coffee/downpic2.jpg";
+import downpic from "../assets/coffee/starbug.jpg";
+import downpic2 from "../assets/coffee/nespresso4Crop.png";
 
 
 import LeftTreeSplit from "./LeftTreeSplit";
