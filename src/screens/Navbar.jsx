@@ -6,8 +6,10 @@ import Close from "../assets/close.png"
  import {RiShoppingCartLine} from "react-icons/ri"
 import Cart from "../assets/cart-icon.jpg"
 import { Link } from 'react-router-dom'
+import { Heart } from 'lucide-react'
+import { useFavorites } from '../contexts/WishlistContext'
 const Navbar = () => {
-
+const 
  const [menuOpen,setMenuOpen] = useState(false)
   
   return (
@@ -24,6 +26,9 @@ const Navbar = () => {
       <Link to="/shop" className="curser-pointer">SHOP</Link>
       <Link to="/about" className="curser-pointer">ABOUT</Link>
     </div>
+    <div className="md:hidden px-4 py-2 ">
+          <Heart className="text-white text-2xl"/>
+        </div>
         <div className="md:hidden px-4 py-2 ">
           <RiShoppingCartLine className="text-white text-2xl"/>
         </div>
