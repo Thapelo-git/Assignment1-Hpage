@@ -1,34 +1,56 @@
-import React from 'react';
-import FirstSection from '../components/FirstSection';
-import newkidSticks from "../assets/newkidSticks.jpg";
-import { Link } from 'react-router-dom';
-import AboutImages from '../components/AboutImages';
-import books from '../assets/about/books.jpg'
-import guy from '../assets/about/guy.jpg'
-import lady from '../assets/about/lady.jpg'
-import posters from '../assets/about/posters.jpg'
-const About = () => {
-    const gallary=[
-        books,posters,
-       guy,lady
-    ]
-    return (
-        <div >
-            <FirstSection text1="ABOUT" bgImg={newkidSticks} button={<Link to="/shop"
-             className="bg-teal-400 h-15 hover:bg-teal-300  text-center text-l 
-              text-white rounded-4xl w-60">SHOP</Link>}/>
-              <div className='h-78 p-4 gap-4'>
-              {
-                gallary.map((imgSrc)=>{
-                    <div className='flex-wrap flex gap-2 '>
-                        <img src={imgSrc} className='w-48 h-48 lg:88 lg:88'/>
-                    </div>
-                })
-              }
-              </div>
+import React from "react"
+import { Link } from "react-router-dom"
+import Navbar from "./Navbar"
 
-        </div>
-    );
-};
+export default function About() {
+  return (
+    <div className="min-h-screen bg-[#f7f5f2] text-[#301a01]">
+      <Navbar />
+      <div className="max-w-5xl mx-auto px-6 py-16 space-y-10">
+        <section className="rounded-3xl bg-white/90 p-10 shadow-lg">
+          <h1 className="text-4xl font-semibold mb-4">About  Coffee</h1>
+          <p className="text-lg leading-relaxed mb-4">
+           Coffee is a specialty coffee shop built around a love of flavour, community,
+            and slow moments. We source beans from across the world, roast them carefully,
+            and serve every cup with warmth and attention.
+          </p>
+          <p className="text-lg leading-relaxed mb-4">
+            Our menu includes single origin and signature blends, espresso drinks, filter coffee,
+            and handcrafted lattes. Every coffee is roasted to bring out the best notes of the bean:
+            chocolate, caramel, citrus, berry, and spice.
+          </p>
+          <p className="text-lg leading-relaxed">
+            We believe in sustainable sourcing, ethical relationships with farmers, and creating a
+            welcoming space for every guest. Whether you stop by for a quick pick-up or stay to
+            enjoy the atmosphere,  Coffee is designed to be your daily coffee destination.
+          </p>
+        </section>
 
-export default About;
+        <section className="rounded-3xl bg-white/90 p-10 shadow-lg">
+          <h2 className="text-3xl font-semibold mb-4">What we do</h2>
+          <ul className="space-y-3 list-disc list-inside text-lg leading-relaxed">
+            <li>Freshly roasted beans from trusted growers</li>
+            <li>Expertly brewed espresso and filter coffee</li>
+            <li>Warm, modern shop atmosphere</li>
+            <li>Easy online ordering and cart checkout</li>
+            <li>Friendly service and a passion for quality</li>
+          </ul>
+        </section>
+
+        <section className="rounded-3xl bg-white/90 p-10 shadow-lg">
+          <h2 className="text-3xl font-semibold mb-4">Visit us</h2>
+          <p className="text-lg leading-relaxed mb-4">
+            Browse our shop, open a product card to see the full details, and add items directly to the cart.
+            We make it simple to discover the coffee you love and place your order in one place.
+          </p>
+          <Link
+            to="/shop"
+            className="inline-block px-8 py-3 rounded-full bg-[#301a01] text-white hover:opacity-90 transition"
+          >
+            Explore our coffee
+          </Link>
+        </section>
+      </div>
+    </div>
+  )
+}

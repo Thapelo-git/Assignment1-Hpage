@@ -3,10 +3,11 @@ import { data } from "../Data";
 import { Link, useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
-
+import { useCart } from "../contexts/CartContext";
 export default function Details() {
   const { Name } = useParams();
   const [item, setItem] = useState(null);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     const found = data.find((d) => d.Name === Name);
@@ -67,7 +68,8 @@ export default function Details() {
           </p>
 
           <div className="flex gap-4 mt-4">
-            <button className="px-8 py-3 rounded-full bg-[#301a01] text-white hover:scale-105 transition">
+            <button className="px-8 py-3 rounded-full bg-[#301a01] text-white hover:scale-105 transition"
+            onClick={() => addToCart(item)}>
               Add to cart
             </button>
             <Link

@@ -29,12 +29,12 @@ function Landing() {
          text-center text-l  text-white rounded-4xl w-60">VISIT OUR SHOP</button>} />
       <DoubleImageSection leftImage={coffeeDrink7} rightImage={bg} alt1="shoe1" alt2="dock" />
          <div className="snap-center flex flex-col mr-0 p-4 text-white  gap-4 bg-[image:var(--radialPrimaryAccent)] h-88 w-full">
-        <span className="font-large mr-auto w-max text-lg">Melula Kids shoes</span>
-        <p className="max-w-2xl text-3xl mr-auto ">
-          Melula is a Copenhagen-based kids fashion brand.
-          Colourful, playful, and gender-neutral.
-          Designed in Denmark, produced in Portugal.
-        </p>
+       <span className="font-large mr-auto w-max text-lg">Artisan Coffee Experience</span>
+<p className="max-w-2xl text-3xl mr-auto">
+  Crafted for true coffee lovers, our blends are rich, aromatic, and full of character.
+  Carefully sourced beans, roasted to perfection for a smooth and balanced taste.
+  Inspired by global coffee culture, made to bring warmth and comfort to every cup.
+</p>
         <div className=" flex flex-row gap-3">
             <span className="text-white">|</span>
             <span className="text-teal-400">Read our story</span>
@@ -83,8 +83,8 @@ function Landing() {
           </div>
           </div>
           <div className="flex flex-col mb-4 lg:w-1/4 md:mb-0 text-center lg:h-full  gap-4">
-          <span className="text-3xl">Subscribe</span>
-          <span>Sign up with your email address to receive news and updates.</span>
+          <span className="text-3xl text-white">Subscribe</span>
+          <span className="text-white">Sign up with your email address to receive news and updates.</span>
           <div className="flex flex-row gap-2">
             <input className="p-2  border border-gray-400 w-3/4"
             placeholder="Email Address" />

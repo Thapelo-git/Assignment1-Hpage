@@ -32,18 +32,17 @@ const Shop = () => {
     return (
         <div className='snap-y  '>
             <section className='snap-start h-screen relative'>
-            <FirstSection text1="SHOP" bgImg={coverpic} button={<Link to="/about"
-             className="bg-teal-400 h-15 hover:bg-teal-300 flex justify-center items-center  text-center text-l 
-              text-white rounded-4xl w-60">ABOUT</Link>}/>
+            <FirstSection text1="SHOP" bgImg={coverpic} button={<Link to="/about" className="bg-[image:var(--linearPrimarySecondary)] hover:bg-teal-300
+         text-center text-xl  text-white rounded-4xl w-60 h-15 ">ABOUT</Link>}/>
             </section>
             <section className='snap-center  min-h-screen p-6 z-10 relative'>
             <div className='snap-center flex justify-center items-center p-4'>
           <div className='flex items-center gap-6 justify-center'>
-            <Link className='text-xl curser-pointer hover:text-gray-400' onClick={()=>setFilter("all")}>All</Link>
-            <Link className='text-xl curser-pointer hover:text-gray-400' onClick={()=>setFilter("coffee")} >Coffee </Link>
-            <Link className='text-xl curser-pointer hover:text-gray-400' onClick={()=>setFilter("nespresso")}>Nespresso</Link>
-             <Link className='text-xl curser-pointer hover:text-gray-400' onClick={()=>setFilter("icelatte")}>Ice Latte</Link>
-                <Link className='text-xl curser-pointer hover:text-gray-400' onClick={()=>setFilter("blend")}>Blend</Link>
+            <Link className='text-xl curser-pointer hover:text-black text-[#E2B98A]' onClick={()=>setFilter("all")}>All</Link>
+            <Link className='text-xl curser-pointer hover:text-black text-[#E2B98A]' onClick={()=>setFilter("coffee")} >Coffee </Link>
+            <Link className='text-xl curser-pointer hover:text-black text-[#E2B98A]' onClick={()=>setFilter("nespresso")}>Nespresso</Link>
+             <Link className='text-xl curser-pointer hover:text-black text-[#E2B98A]' onClick={()=>setFilter("icelatte")}>Ice Latte</Link>
+                <Link className='text-xl curser-pointer hover:text-black text-[#E2B98A]' onClick={()=>setFilter("blend")}>Blend</Link>
           </div>
           </div>
           <div className='snap-center flex flex-wrap flex-row justify-center items-center gap-2 p-4'>

@@ -8,6 +8,7 @@ import Shop from './screens/Shop'
 import About from './screens/About'
 import Header from './screens/Header'
 import Details from './screens/Details'
+import Cart from './screens/Cart'
 function App() {
   
 
@@ -20,6 +21,7 @@ function App() {
     <Route path='/shop' element={<Shop/>}/>
     <Route path='/about' element={<About/>}/>
      <Route path='/details/:Name' element={<Details/>}/>
+      <Route path='/cart' element={<Cart/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
