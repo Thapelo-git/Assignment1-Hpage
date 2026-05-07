@@ -34,8 +34,7 @@ function Landing() {
 </div>
 
   <div className="bg-transparent bg-opacity-50 p-6 rounded-lg text-center">
-    <h1 className="text-white text-5xl md:text-5xl font-bold mb-4">FOR COLOURFUL
-STEPS IN LIFE</h1>
+    <h1 className="text-white text-5xl md:text-5xl font-bold mb-4">Where Great Coffee Begins</h1>
     {/* <p className="text-white text-lg md:text-xl max-w-xl">
       Colourful, playful, and gender-neutral. Designed in Denmark, produced in Portugal.
     </p> */}

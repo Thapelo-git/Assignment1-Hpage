@@ -18,23 +18,91 @@ import vigga_thumbs from "./assets/coffee/icecoffee3Crop.jpg"
 import ville_thumbs from "./assets/coffee/icecoffee4Crop.jpg"
 //https://dribbble.com/shots/19634014-Coffee-Order-App
 export const data = [
-  { id:  1, img: Bue,         Name: "Bue",                          price: "40,00 ", type: "coffee" },
-  { id:  2, img: skjold,      Name: "Skjold",                       price: "10,00 ", type: "coffee" },
-  { id:  3, img: milkcoffee3,      Name: "Milk coffee",                        price: "10,00 ", type: "coffee" },
-  { id:  4, img: chocolete,       Name: "chocolete",                         price: "40,00 ", type: "coffee" },
-  { id:  5, img: mint,        Name: "Mint",                         price: "10,00 ", type: "nespresso" },
-  { id:  6, img: milk,       Name: "ice Tea",                       price: "10,00 ", type: "nespresso" },
-  { id: 7, img: chok,        Name: "Chok",                         price: "10,00 ", type: "nespresso" },
-  { id:  8, img: coverpic,        Name: "Gold",                         price: "10,00 ", type: "ice Coffee" },
-  { id:  9, img: coffeeDrink1,       Name: "KoBrick ",                        price: "10,00 ", type: "ice Coffee" },
+  { id:  1, img: Bue,         Name: "Cappuccino",                          price: "40,00 ", type: "coffee" },
+  { id:  2, img: skjold,      Name: "Macchiato",                       price: "25,00 ", type: "coffee" },
+  { id:  3, img: milkcoffee3,      Name: "Milk coffee",                        price: "23,00 ", type: "coffee" },
+  { id:  4, img: chocolete,       Name: "Mocha (coffee + chocolate)",                         price: "40,00 ", type: "coffee" },
+  { id:  5, img: mint,        Name: "Espresso",                         price: "24,00 ", type: "nespresso" },
+  { id:  6, img: milk,       Name: "Iced & Cold Coffee",                       price: "25,00 ", type: "nespresso" },
+  { id: 7, img: chok,        Name: "Cortado",                         price: "21,99 ", type: "nespresso" },
+  { id:  8, img: coverpic,        Name: "Cold brew",                         price: "23,00 ", type: "ice Coffee" },
+  { id:  9, img: coffeeDrink1,       Name: "Iced coffee ",                        price: "20,00 ", type: "ice Coffee" },
   
 
-  { id: 11, img: vigga_thumbs, Name: "Vigga",                       price: "10,00 ", type: "icelatte" },
-  { id: 12, img: ville_thumbs, Name: "Ville",                       price: "22,00 ", type: "icelatte" },
-  { id: 13, img: coral1,      Name: "Coral No‑Tie Laces",          price: "15,00 ", type: "icelatte" },
-  { id: 14, img: starbug,        Name: "Coral No‑Tie Laces",          price: "10,00 ", type: "icelatte" },
-  { id: 15, img: royall,      Name: "Royal Blue No‑Tie Laces",     price: "21,00 ", type: "blend" },
-  { id: 16, img: yellow,      Name: "Coral No‑Tie Laces",          price: "23,00 ", type: "blend" },
-  { id: 17, img: white,       Name: "Coral No‑Tie Laces",          price: "24,00 ", type: "blend" },
-  { id: 18, img: blue,        Name: "Royal Blue No‑Tie Laces",     price: "25,00 ", type: "blend" }
+  { id: 11, img: vigga_thumbs, Name: "Caramel latte",                       price: "23,00 ", type: "icelatte" },
+  { id: 12, img: ville_thumbs, Name: "Hazelnut coffee",                       price: "22,00 ", type: "icelatte" },
+  { id: 13, img: coral1,      Name: "Vanilla latte",          price: "15,00 ", type: "icelatte" },
+  { id: 14, img: starbug,        Name: "Affogato (espresso + ice cream)",          price: "20,00 ", type: "icelatte" },
+  { id: 15, img: royall,      Name: "Arabica (smooth, high quality)",     price: "21,00 ", type: "blend" },
+  { id: 16, img: yellow,      Name: "Robusta (strong, more caffeine)",          price: "23,00 ", type: "blend" },
+  { id: 17, img: white,       Name: "Liberica (rare, unique taste)",          price: "24,00 ", type: "blend" },
+  { id: 18, img: blue,        Name: "Excelsa (fruity, unusual)",     price: "25,00 ", type: "blend" }
 ];
+// 1. Basic Coffee Styles (Foundation)
+
+// These are the core drinks everything else builds from:
+
+// Espresso
+// Americano (espresso + water)
+// Black coffee (drip/filter)
+// Pour-over
+// French press
+// Cold brew
+// 🥛 2. Milk-Based Coffee Drinks
+
+// These are the most popular in cafés:
+
+// Latte
+// Cappuccino
+// Flat white
+// Cortado
+// Macchiato
+// Mocha (coffee + chocolate)
+// Café au lait
+// ❄️ 3. Iced & Cold Coffee
+
+// Great for hot days:
+
+// Iced coffee
+// Iced latte
+// Iced Americano
+// Cold brew
+// Nitro cold brew
+// 🍫 4. Flavored & Specialty Coffee
+
+// More creative and sweet options:
+
+// Vanilla latte
+// Caramel latte
+// Hazelnut coffee
+// Pumpkin spice latte
+// Irish coffee (coffee + alcohol)
+// Affogato (espresso + ice cream)
+// 🌍 5. International Coffee Drinks
+
+// Different cultures, different styles:
+
+// Turkish coffee
+// Arabic coffee
+// Vietnamese iced coffee
+// Italian espresso
+// Greek coffee
+// Spanish café bombón
+// 🧪 6. Brewing Methods (How coffee is made)
+
+// Not drinks, but important “types”:
+
+// Espresso machine
+// Drip machine
+// French press
+// AeroPress
+// Moka pot
+// Siphon (vacuum coffee)
+// 🌱 7. Coffee Bean Types
+
+// The source of flavor:
+
+// Arabica (smooth, high quality)
+// Robusta (strong, more caffeine)
+// Liberica (rare, unique taste)
+// Excelsa (fruity, unusual)
