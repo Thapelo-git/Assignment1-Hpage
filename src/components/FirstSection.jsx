@@ -2,8 +2,8 @@ import React from "react";
 
 import Navbar from "../screens/Navbar";
 import Header from "../screens/Header";
-
-function FirstSection({text1,text2,button,bgImg}) {
+import { Link } from "react-router-dom";
+function FirstSection({text1,text2,bgImg}) {
   return (
     <div className="relative">
    <div
@@ -21,7 +21,9 @@ function FirstSection({text1,text2,button,bgImg}) {
         <h1 className="text-white text-5xl md:text-5xl font-bold  mb-4">
            {text2}
         </h1>
-         {button}
+         <Link to="/shop" className="bg-[image:var(--linearPrimarySecondary)] h-15 hover:bg-teal-300 flex items-center justify-center text-center text-l text-white rounded-4xl w-60">
+           VISIT OUR SHOP
+         </Link>
       </div>
     </div>
       

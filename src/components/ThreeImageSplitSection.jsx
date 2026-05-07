@@ -49,7 +49,7 @@ function ThreeImageSplitSection({
           src={mainImage}
           alt="main"
           className="
-            w-2/3 md:w-1/3
+            w-1/4 md:w-1/3
             h-[70%] md:h-[85%]
             object-cover
             rounded-md

@@ -24,9 +24,8 @@ function Landing() {
   return (
     <div className=" snap-y   w-full  h-full  ">
       
-      <FirstSection  text1="FOR COLOURFUL " text2="STEPS IN LIFE"  bgImg={backg}
-       button={<button className="bg-[image:var(--linearPrimarySecondary)] h-15 hover:bg-teal-300
-         text-center text-l  text-white rounded-4xl w-60">VISIT OUR SHOP</button>} />
+      <FirstSection  text1="Where Great  " text2="Coffee Begins"  bgImg={backg}
+      />
       <DoubleImageSection leftImage={coffeeDrink7} rightImage={bg} alt1="shoe1" alt2="dock" />
          <div className="snap-center flex flex-col mr-0 p-4 text-white  gap-4 bg-[image:var(--radialPrimaryAccent)] h-88 w-full">
        <span className="font-large mr-auto w-max text-lg">Artisan Coffee Experience</span>
